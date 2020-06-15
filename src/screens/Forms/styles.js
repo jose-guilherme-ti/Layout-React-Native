@@ -40,7 +40,7 @@ export const NameInput = styled.TextInput`
     border-color:#fff;
     border-width:3px;
     border-radius:10px;
-    margin-top:110px;
+    margin-top:150px;
     padding-left:12px;
 `;
 
@@ -53,17 +53,6 @@ export const EmailInput = styled.TextInput`
     border-radius:10px;
     margin-top:10px;
     padding-left:12px;
-`;
-
-export const PasswordInput = styled.TextInput`
-width:100%;
-height:50px;
-color:#fff;
-border-color:#fff;
-border-width:3px;
-border-radius:10px;
-margin-top:10px;
-padding-left:12px;
 `;
 
 export const SubmitInput = styled.TouchableOpacity`
