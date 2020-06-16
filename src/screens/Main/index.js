@@ -11,7 +11,8 @@ import {Container, Wrapper, Header, ButtonDrawerNavigator, Img, BlockButtonViewM
 import BraziliamTeams from '../../components/braziliamTeams/index.js'
 import MajorChampioships from '../../components/majorChampionships/index.js'
 
-export default function FirstScreenApp() {
+
+export default function FirstScreenApp({navigation}) {
     return(
         <Container style={styles.container}>
 
@@ -19,7 +20,7 @@ export default function FirstScreenApp() {
 
                 <Header>
 
-                    <ButtonDrawerNavigator>
+                    <ButtonDrawerNavigator onPress={() => navigation.openDrawer()}>
 
                         <Feather name="menu" size={35} color="#2C02A4" />
 
@@ -50,7 +51,6 @@ export default function FirstScreenApp() {
         </Container>
     )
 }
-
 
 const styles = StyleSheet.create({
     container:{

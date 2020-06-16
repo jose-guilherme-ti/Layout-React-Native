@@ -1,13 +1,12 @@
 import React, {useEffect} from 'react';
 
-import {Container, Img, WrapperForm, Form, TitleForm, NameInput, EmailInput, PasswordInput, SubmitInput, SubmitTitle} from './styles.js'
+import {Container, Img, WrapperForm, Form, TitleForm, NameInput, EmailInput, SubmitInput, SubmitTitle} from './styles.js'
 
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 import logoForm from '../../images/logoFutMania.png'
 
 import {useForm} from 'react-hook-form';
-
 
 export default function FormScreen({navigation}){    
     const onSubmit = data => {
@@ -20,7 +19,7 @@ export default function FormScreen({navigation}){
         }else if (data.email.indexOf('.com') === -1){
             alert('Insira um Email válido')
         }else{
-        navigation.navigate('Initial');
+        navigation.navigate('FirstScreenApp');
         }
     };
 
