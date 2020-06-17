@@ -66,7 +66,7 @@ const Routes = createAppContainer(
             },
         },
     },{
-        initialRouteName: 'InitialScreen',
+        initialRouteName: 'BestsOfTheWorldScreen',
         contentComponent: CustomDrawer,
         contentOptions:{
             activeTintColor :'#2C02A4',

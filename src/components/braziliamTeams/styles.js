@@ -24,6 +24,7 @@ export const Option = styled.View`
     margin-right:20px;
 `;
 
+
 export const WrapperImg = styled.TouchableOpacity`
     align-items:center;
     justify-content:center;

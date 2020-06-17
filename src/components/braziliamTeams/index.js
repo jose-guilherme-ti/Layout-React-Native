@@ -1,6 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-import {Container, Wrapper, TitleContainer, OptionsTeam, Option, WrapperImg, Img, Label} from './styles.js'
+import {Container,
+        Wrapper,
+        TitleContainer,
+        OptionsTeam,
+        Option,
+        ButtonCloseModal,
+        WrapperImg,
+        Img,
+        Label} from './styles.js'
 
 import flamengo from '../../images/Teams/flamengo.png'
 import palmeiras from '../../images/Teams/palmeiras.png'

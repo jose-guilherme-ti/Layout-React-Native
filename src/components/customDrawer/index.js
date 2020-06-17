@@ -26,8 +26,7 @@ import {Container,
         TitleEditProfile} from './styles.js';
 
 export default function CustomDrawer({...props}){
-    const [modalVisible,
-            setModalVisible] = useState(false);
+    const [modalVisible, setModalVisible] = useState(false);
 
     return(
 
@@ -35,10 +34,8 @@ export default function CustomDrawer({...props}){
             
 
             <Modal
-            style={styles.modal}
             animationType="slide"
             visible={modalVisible}
-            presentationStyle="formSheet"
             >
                 
                 <ButtonCloseModal onPress={() => {                     setModalVisible(!modalVisible)
@@ -105,9 +102,6 @@ export default function CustomDrawer({...props}){
 const styles = StyleSheet.create({
     container:{
         paddingTop: Platform.OS === 'android' ? 70 : 0,
-    },
-    modal:{
-        backgroundColor:'#2C02A4',
     }
 })
 

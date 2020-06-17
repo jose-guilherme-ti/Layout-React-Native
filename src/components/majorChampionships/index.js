@@ -9,12 +9,12 @@ import mundialDeClubes from '../../images/Champioships/mundialDeClubes.jpg'
 
 const ItemsFirstRow = [
     {
-        key: String(Math.random),
+        key: String(Math.random()),
         img: copaDoMundo,
         label: 'Copa do Mundo'
     },
     {
-        key: String(Math.random),
+        key: String(Math.random()),
         img: libertadores,
         label: 'Libertadores'
     },
