@@ -4,7 +4,6 @@ export const Container = styled.ScrollView`
     background-color:#2C02A4
 `;
 
-
 export const ButtonCloseModal = styled.TouchableOpacity`
     align-items:flex-end;
     padding-right:20px;
