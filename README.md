@@ -35,7 +35,7 @@ No aplicativo desenvolvido, foram criadas diversas e telas e foram utilizados di
 Ao iniciar o projeto, a seguinte tela é apresentada:
 
 <h1 align="center">
-    <img src="https://ik.imagekit.io/ur6xo9m70i/Image_1_CvzQROOD6.jpeg" width="350" >
+    <img src="https://ik.imagekit.io/ur6xo9m70i/Image_1_CvzQROOD6.jpeg" width="300" >
 </h1>
 
 Nela é possível ver uma breve uma apresentação juntamente com o logo do projeto.
@@ -43,7 +43,7 @@ Nela é possível ver uma breve uma apresentação juntamente com o logo do proj
 Ao clicar no botão "Iniciar" o usuário será redirecionado para a seguinte tela:
 
 <h1 align="center">
-    <img src="https://ik.imagekit.io/ur6xo9m70i/image_2_Ph1HGYqzL.jpeg" width="350" >
+    <img src="https://ik.imagekit.io/ur6xo9m70i/image_2_Ph1HGYqzL.jpeg" width="300" >
 </h1>
 
 Como é possível ver, nessa tela é apresentado um formulário. Nessa tela foi utilizado o componente "Keyboard Avoing View" para que o formulário suba junto com o teclado.
