@@ -16,7 +16,7 @@ export default function App (){
     return( 
         <NavigationContainer style={styles.container}>
             
-            <Stack.Navigator headerMode="none" initialRouteName="FirstScreenApp">
+            <Stack.Navigator headerMode="none" initialRouteName="Home">
                 
                 <Stack.Screen name="Home" component={HomeScreen} />
                 <Stack.Screen name="Forms" component={FormScreen} />

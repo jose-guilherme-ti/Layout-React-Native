@@ -248,7 +248,7 @@ export default function BestsOfTheWorld({navigation}){
                     <LeftColumn>
 
                         {LeftColumnItems.map((itemLeftColumn) => (
-                            <OptionLeftColumn item={itemLeftColumn.key}>
+                            <OptionLeftColumn key={itemLeftColumn.key}>
 
                                 <LabelOptionLeftColumn>{itemLeftColumn.label}</LabelOptionLeftColumn>
 
@@ -264,7 +264,7 @@ export default function BestsOfTheWorld({navigation}){
                     <RightColumn>
 
                         {RightColumnItems.map((itemRightColumn) => (
-                            <OptionRightColumn item={itemRightColumn.key}>
+                            <OptionRightColumn key={itemRightColumn.key}>
 
                                 <LabelOptionRightColumn>{itemRightColumn.label}</LabelOptionRightColumn>
 

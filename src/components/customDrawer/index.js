@@ -41,7 +41,7 @@ export default function CustomDrawer({...props}){
                 <ButtonCloseModal onPress={() => {                     setModalVisible(!modalVisible)
                 }}>
 
-                    <FontAwesome name="close" size={20} color="#2C02A4" />
+                    <FontAwesome name="close" size={25} color="#2C02A4" />
 
                 </ButtonCloseModal>
                 
