@@ -66,7 +66,7 @@ const Routes = createAppContainer(
             },
         },
     },{
-        initialRouteName: 'MajorLeaguesScreen',
+        initialRouteName: 'InitialScreen',
         contentComponent: CustomDrawer,
         contentOptions:{
             activeTintColor :'#2C02A4',
